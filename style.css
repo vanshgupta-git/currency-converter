@@ -69,6 +69,10 @@ form button{
     background-color: #5a5b96;
     color: white;
 }
+button:hover{
+    cursor: pointer;
+    zoom: 105%;
+}
 .convert-button {
     display: flex;
     justify-content: center;
