@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Currency Converter</h1>
+        <p>Check live rates, set rate alerts, receive notifications and more.</p>
+    </div>
+    <div class="main">
+        <div class="container">
+            <form>
+                <div class="dropdown">
+                    <div class="from">
+                        <p>Amount</p>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/US/flat/64.png" />
+                            <select name="from" id="from"></select>
+                            <input type="number" value="1">
+                        </div>
+                    </div>
+                    <div class="convert-image">
+                        <img src="assets/convert.svg" alt="convert">
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <div class="to">
+                        <p>Converted Amount</p>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/IN/flat/64.png" />
+                            <select name="to" id="to"></select>
+                            <input type="number" value="94.33" readonly>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="exchange-rate">
+                    <h5>Exchange Rate</h5>
+                    <p>1 USD = 94.33 INR</p>
+                </div>
+                <div class="convert-button">
+                    <button>Convert</button>
+                </div>
+            </form>
+        </div>
+    </div>
+<div class="lower">
+<a href="https://www.linkedin.com/in/vanshgupta-in/">VANSH GUPTA</a>
+</div>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
